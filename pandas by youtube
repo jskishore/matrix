@@ -1,0 +1,25 @@
+             PANDAS : https://www.youtube.com/watch?v=fAxjxoNqU9o
+1) high performance data analysis
+2)working with large data set
+3)supports or load files with differnt formts
+4)more flexible
+5)represent in tabular way(rows and columns)
+6)working on missing data
+7)indexing-slicing-subsetting the large data sets
+8)merge and join 2 different data sets easily
+9) reshape data sets
+
+high performance data analysis with "3 data structues"
+1)series    -> One dimentional      ->List
+2)DataFrame -> Two dimentional      ->list/dictionary/series/ another DF
+3)Panel     -> Multi dimentional    ->
+
+:::::syntax series::::
+import pandas as pd
+pd.Series(data,index)
+
+::::::syntax DataFrame::::::
+pd.DataFrame(data)
+
+::::syntax panel::::::::
+pd.Panel(data,major axis,minor axis,dtype)
